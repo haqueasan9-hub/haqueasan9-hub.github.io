@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -6,29 +7,105 @@
   <title>MD ASAN UL HAQUE | AI + Biostat Research</title>
 
   <style>
-    body { font-family: Arial, sans-serif; margin: 0; line-height: 1.6; }
-    header { background: #0f172a; color: white; padding: 20px; text-align: center; }
-    nav { background: #1e293b; padding: 10px; text-align: center; }
-    nav a { color: white; margin: 0 15px; text-decoration: none; }
-    section { padding: 40px; max-width: 900px; margin: auto; }
-    h2 { border-bottom: 2px solid #ddd; padding-bottom: 10px; }
-    .card { background: #f9f9f9; padding: 20px; margin: 15px 0; border-radius: 10px; }
-    footer { text-align: center; padding: 20px; background: #0f172a; color: white; }
+    body {
+      font-family: 'Segoe UI', Arial, sans-serif;
+      margin: 0;
+      background: #f5f7fb;
+      color: #1e293b;
+    }
 
-    img.profile {
-      width: 150px;
+    header {
+      background: #0f172a;
+      color: white;
+      padding: 30px;
+      text-align: center;
+    }
+
+    nav {
+      background: #1e293b;
+      padding: 12px;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    nav a:hover {
+      color: #38bdf8;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: auto;
+      padding: 40px 20px;
+    }
+
+    .about {
+      display: flex;
+      align-items: center;
+      gap: 40px;
+      flex-wrap: wrap;
+    }
+
+    .about img {
+      width: 180px;
       border-radius: 50%;
-      display: block;
-      margin-bottom: 20px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+    }
+
+    .about-text {
+      flex: 1;
+    }
+
+    .buttons a {
+      display: inline-block;
+      margin: 10px 10px 0 0;
+      padding: 10px 15px;
+      background: #0f172a;
+      color: white;
+      text-decoration: none;
+      border-radius: 6px;
+      font-size: 14px;
+    }
+
+    .buttons a:hover {
+      background: #334155;
+    }
+
+    h2 {
+      border-bottom: 2px solid #ddd;
+      padding-bottom: 10px;
+      margin-top: 50px;
+    }
+
+    .card {
+      background: white;
+      padding: 20px;
+      margin: 15px 0;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #0f172a;
+      color: white;
+      margin-top: 40px;
     }
   </style>
+
 </head>
 
 <body>
 
 <header>
   <h1>MD ASAN UL HAQUE</h1>
-  <p>Artificial Intelligence • Biostatistics • Clinical Trials • Machine Learning • Transportation Analytics</p>
+  <p>AI • Biostatistics • Clinical Trials • Machine Learning • Transportation Analytics</p>
 </header>
 
 <nav>
@@ -36,58 +113,83 @@
   <a href="#research">Research</a>
   <a href="#projects">Projects</a>
   <a href="#publications">Publications</a>
-  <a href="#cv">CV</a>
 </nav>
 
-<section id="home">
+<div class="container">
+
+  <!-- ABOUT -->
+
+  <section id="home" class="about">
+    <img src="doel12.jpg" alt="Profile Photo">
+
+```
+<div class="about-text">
   <h2>About Me</h2>
-
-  <!-- ✅ FIXED IMAGE -->
-  <img src="doel12.jpg" alt="MD Asan Ul Haque" class="profile">
-
   <p>
-    I am a researcher interested in Artificial Intelligence, Biostatistics,
-    and Clinical Trials. My work focuses on applying machine learning methods
-    to public health and medical data.
+    I am a researcher working at the intersection of Artificial Intelligence,
+    Biostatistics, and Clinical Trials. My research focuses on applying machine
+    learning to healthcare and transportation systems.
   </p>
-</section>
 
-<section id="research">
-  <h2>Research</h2>
-
-  <div class="card">
-    <h3>AI in Clinical Trials</h3>
-    <p>Using deep learning to improve trial design and patient outcomes.</p>
+  <div class="buttons">
+    <a href="#">Email</a>
+    <a href="#">Google Scholar</a>
+    <a href="#">GitHub</a>
+    <a href="#">LinkedIn</a>
   </div>
+</div>
+```
 
-  <div class="card">
-    <h3>Survival Analysis</h3>
-    <p>Statistical modeling of time-to-event data in healthcare.</p>
-  </div>
-</section>
+  </section>
 
-<section id="projects">
-  <h2>Projects</h2>
+  <!-- RESEARCH -->
 
-  <div class="card">
-    <h3>Fuel Consumption Prediction</h3>
-    <p>Machine learning model analyzing driving behavior and fuel efficiency.</p>
-  </div>
-</section>
+  <section id="research">
+    <h2>Research</h2>
 
-<section id="publications">
-  <h2>Publications</h2>
+```
+<div class="card">
+  <h3>AI in Clinical Trials</h3>
+  <p>Using deep learning to improve trial design, recruitment, and patient outcomes.</p>
+</div>
 
-  <ul>
-    <li>Paper Title 1 - Journal Name (Year)</li>
-    <li>Paper Title 2 - Conference Name (Year)</li>
-  </ul>
-</section>
+<div class="card">
+  <h3>Survival Analysis</h3>
+  <p>Advanced statistical modeling for time-to-event healthcare data.</p>
+</div>
+```
 
-<section id="cv">
-  <h2>CV</h2>
-  <p><a href="#">Download my CV (PDF)</a></p>
-</section>
+  </section>
+
+  <!-- PROJECTS -->
+
+  <section id="projects">
+    <h2>Projects</h2>
+
+```
+<div class="card">
+  <h3>Fuel Consumption Prediction</h3>
+  <p>Machine learning model analyzing driving behavior and vehicle efficiency.</p>
+</div>
+```
+
+  </section>
+
+  <!-- PUBLICATIONS -->
+
+  <section id="publications">
+    <h2>Publications</h2>
+
+```
+<div class="card">
+  <p><strong>Paper Title 1</strong> — Journal Name (2025)</p>
+  <p><strong>Paper Title 2</strong> — Conference Name (2026)</p>
+</div>
+```
+
+  </section>
+
+</div>
 
 <footer>
   <p>© 2026 MD ASAN UL HAQUE</p>
