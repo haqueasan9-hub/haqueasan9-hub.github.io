@@ -117,18 +117,25 @@
 
 <div class="container">
 
-  <!-- ABOUT -->
-
   <section id="home" class="about">
-    <img src="doel12.jpg" alt="Profile Photo">
+
+  <div class="about-container">
 
 ```
+<!-- IMAGE -->
+<div class="about-img">
+  <img src="doel12.jpg" alt="MD Asan Ul Haque">
+</div>
+
+<!-- TEXT -->
 <div class="about-text">
   <h2>About Me</h2>
+  <h3>MD Asan Ul Haque</h3>
+
   <p>
-    I am a researcher working at the intersection of Artificial Intelligence,
-    Biostatistics, and Clinical Trials. My research focuses on applying machine
-    learning to healthcare and transportation systems.
+    I am a researcher interested in Artificial Intelligence, Biostatistics,
+    and Clinical Trials. My work focuses on applying machine learning methods
+    to public health and medical data.
   </p>
 
   <div class="buttons">
@@ -139,6 +146,50 @@
   </div>
 </div>
 ```
+
+  </div>
+
+</section>
+
+<style>
+.about-container {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.about-img img {
+  width: 180px;
+  border-radius: 50%;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+
+.about-text {
+  flex: 1;
+}
+
+.about-text h3 {
+  margin-top: 5px;
+  color: #475569;
+}
+
+.buttons a {
+  display: inline-block;
+  margin: 10px 10px 0 0;
+  padding: 8px 14px;
+  background: #0f172a;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.buttons a:hover {
+  background: #334155;
+}
+</style>
+
 
   </section>
 
